@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:gray;
+}
+
+.post {
+  width: 320px;
+  margin: 20px auto;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: black;
+  padding-bottom: 50px;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.info-usuario {
+  display: flex;
+  align-items: center;
+}
+.imagen-usuario{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px gray;
+}
+.usuario{
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+.menu-icon {
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+.post-image{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+}
+.post-footer {
+  padding: 10px;
+}
+.me-gustas{
+  display: flex;
+  font-size:small;
+  position:fixed;
+  padding-top: 20px;
+  font-weight: bold;
+}
+.description-post{
+  display: flex;
+  padding-top: 50px;
+  font-size: small;
+}
